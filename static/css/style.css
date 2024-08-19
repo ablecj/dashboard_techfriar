@@ -2009,6 +2009,7 @@ body {
 .navbae_desk {
   margin-top: 10px; 
   z-index: 3;
+  width: 390px !important;
  }
 
 }
