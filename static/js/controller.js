@@ -2,7 +2,7 @@
 // toggle navbar function defintion
 // toggle navbar function defintion
 function toggleNavbarWidth() {
-  const navbar = document.querySelector('.navbar_desk');
+  const navbar = document.querySelector('.navbae_desk');
   const imgButtonSmall = document.querySelector('.toogle_btn_smallsize');
   const allDivs = navbar.querySelectorAll('div');
   const navbarSectionInner = navbar.querySelector('.navbar_section_inner');
