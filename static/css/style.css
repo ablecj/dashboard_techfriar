@@ -16,8 +16,26 @@ body {
   width: auto;
   height: auto;
   background-color: #0f1738;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1738; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1738;
+  flex-direction: column;
   
 }
+
+
+
+.toogle_btn_smallsize {
+  display: none;
+  margin-top: 20px;
+}
+
 /* logo_Container */
 .logo_Container {
   width: auto;
@@ -45,6 +63,8 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 1.5rem 0 3.4rem;
+  max-width: 100%;
+  height: auto;
 }
 /* profile_container */
 .profile_container {
@@ -1376,6 +1396,7 @@ color: #1E1F21;
     position: absolute;
     top: 0;
     background-color: #0F1738;
+    z-index: 5;
   }
   .navbar_title_cont {
     width: 128.19px;
@@ -1384,10 +1405,7 @@ color: #1E1F21;
     left: 16px;
     top: 43px;
   }
-  .second_sec {
-    margin-top: 88px;
- 
-  }
+  
   .navbar_mob_title {
     margin: 0;
     width: 102px;
@@ -1417,6 +1435,9 @@ color: #1E1F21;
     width: 390px;
     height: auto;
     padding-bottom: 40px;
+    padding-top: 88px;
+    position: relative;
+    bottom: 66px;
   }
   /* title_container */
   .title_container {
@@ -1986,6 +2007,12 @@ body {
   justify-content: center;
   align-items: center;
 } 
+
+/* navbar_desk */
+.navbar_desk {
+  margin-top: 10px; 
+  z-index: 3;
+ }
 
 }
 
